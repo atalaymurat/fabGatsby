@@ -1,0 +1,184 @@
+[
+  {
+    "title": "dualtech 420",
+    "brand": "giardina group",
+    "sector": [
+      "ahsap",
+      "cam",
+      "metal"
+    ],
+    "category": [
+      "spray"
+    ],
+    "description": "The Dualtech 420 spray machine with two reciprocating arms has been designed to spray stain, primer and finishes onto all smooth or shaped surfaces.",
+    "youtube": [
+      "https://www.youtube.com/watch?v=1YWjowgmHrc",
+      "https://www.youtube.com/watch?v=64AtspVPOUs",
+      "https://www.youtube.com/watch?v=iMejU2hVP9Y"
+    ],
+    "images": [
+      "dualtech420-01.jpg",
+      "dualtech420-02.jpg",
+      "dualtech420-03.jpg",
+      "dualtech420-04.jpg",
+      "dualtech420-05.jpg"
+    ]
+  },
+  {
+    "title": "dualtech 501",
+    "brand": "giardina group",
+    "sector": [
+      "ahsap",
+      "cam",
+      "metal"
+    ],
+    "category": [
+      "spray"
+    ],
+    "description": "The Dualtech 501 oscillating sprayer with two oscillating arms, is used to spray stain, primer and top coat on any smooth or shaped surface. The ventilation system is designed with a large finishing chamber and pigment filtration areas of such dimensions as to guarantee a significant reduction of the overspray. The Dualtech 501 can only be supplied in the synthetic belt version (2000 mm) with the classic and reliable GiardinaGroup product recovery and belt cleaning system. The overspray disposal system can be dry or with water curtains.",
+    "youtube": [
+      "https://www.youtube.com/watch?v=tqqMxcqLET0",
+      "https://www.youtube.com/watch?v=_J9nx-XjGnU"
+    ],
+    "images": [
+      "dualtech501-02.jpg",
+      "dualtech501-01.jpg"
+    ]
+  },
+  {
+    "title": "dualtech 415",
+    "brand": "giardina group",
+    "sector": [
+      "ahsap",
+      "cam",
+      "metal"
+    ],
+    "category": [
+      "spray"
+    ],
+    "description": "The reliable Dualtech 415 oscillating sprayer with two oscillating arms, is used to spray stain, primer and top coat on any smooth or shaped surface. Compact and robust, this machine can coat single pieces up to large batches with good quality and reliability.",
+    "youtube": [],
+    "images": [
+      "dualtech415-01.jpg"
+    ]
+  },
+  {
+    "title": "g 02-09",
+    "brand": "giardina group",
+    "sector": [
+      "ahsap",
+      "cam",
+      "metal"
+    ],
+    "category": [
+      "rulo sürme"
+    ],
+    "description": "The G02/09 filling machine allows the application of low and medium viscosity UV or water-base fillers and putty on all flat surfaces. Roller conveyor system, with central back-up roller.",
+    "youtube": [
+      "https://www.youtube.com/watch?v=d2qBqGoo1LI"
+    ],
+    "images": [
+      "g02-09.jpg"
+    ]
+  },
+  {
+    "title": "gs 25",
+    "brand": "giardina group",
+    "sector": [
+      "ahsap",
+      "cam",
+      "metal"
+    ],
+    "category": [
+      "spray"
+    ],
+    "description": "The GS25 spray robot is a 6-axis cartesian robot with numerical control able to finish parts with any shape and size, following the contour and optimizing the coating of surfaces and edges. It is available with Dry or Wet filtration system, with synthetic or paper conveyor belt. The spraying head can be made in different configurations according to the type of use. 2D or 3D piece detection system.",
+    "youtube": [
+      "https://www.youtube.com/watch?v=mXpZIbIfPlc",
+      "https://www.youtube.com/watch?v=6DU8k6D8xDY",
+      "https://www.youtube.com/watch?v=nWxLsysMY_M",
+      "https://www.youtube.com/watch?v=WmVjuOflW7M",
+      "https://www.youtube.com/watch?v=xC4aq65ESd8",
+      "https://www.youtube.com/watch?v=5kHKkHKf80o"
+    ],
+    "images": [
+      "gs25-01.jpg"
+    ]
+  },
+  {
+    "title": "s series",
+    "brand": "costa levigatrici",
+    "sector": [
+      "ahsap",
+      "metal"
+    ],
+    "category": [
+      "zımpara"
+    ],
+    "description": "The GS25 spray robot is a 6-axis cartesian robot with numerical control able to finish parts with any shape and size, following the contour and optimizing the coating of surfaces and edges. It is available with Dry or Wet filtration system, with synthetic or paper conveyor belt. The spraying head can be made in different configurations according to the type of use. 2D or 3D piece detection system.",
+    "youtube": [],
+    "images": [
+      "costa-S-series03.jpg",
+      "costa-S-series.jpg",
+      "costa-S-series04.jpg",
+      "costa-S-series02.jpg"
+    ]
+  },
+  {
+    "title": "k series",
+    "brand": "costa levigatrici",
+    "sector": [
+      "ahsap",
+      "metal"
+    ],
+    "category": [
+      "zımpara"
+    ],
+    "description": "The GS25 spray robot is a 6-axis cartesian robot with numerical control able to finish parts with any shape and size, following the contour and optimizing the coating of surfaces and edges. It is available with Dry or Wet filtration system, with synthetic or paper conveyor belt. The spraying head can be made in different configurations according to the type of use. 2D or 3D piece detection system.",
+    "youtube": [],
+    "images": [
+      "costa-K-series01.jpg",
+      "costa-K-series02.jpg",
+      "costa-K-series03.jpg",
+      "costa-K-series04.jpg"
+    ]
+  },
+  {
+    "title": "sk series",
+    "brand": "costa levigatrici",
+    "sector": [
+      "ahsap",
+      "metal"
+    ],
+    "category": [
+      "zımpara"
+    ],
+    "description": "The SK Series calibrating-sanding machine is our all-in-one solution for the small industrial user.The SK-Series machine comes in several different configurations with drums and pads. Available in working widths of 45\" and 52\", variable feed speed, vacuum plant for processing small parts, and built-in roller table extensions.",
+    "youtube": [],
+    "images": [
+      "costa-SK-series.jpg",
+      "costa-SK-series01.jpg",
+      "costa-SK-series02.jpg",
+      "costa-SK-series03.jpg",
+      "costa-SK-series04.jpg"
+    ]
+  },
+  {
+    "title": "b series",
+    "brand": "costa levigatrici",
+    "sector": [
+      "ahsap",
+      "metal"
+    ],
+    "category": [
+      "zımpara"
+    ],
+    "description": "The SK Series calibrating-sanding machine is our all-in-one solution for the small industrial user.The SK-Series machine comes in several different configurations with drums and pads. Available in working widths of 45\" and 52\", variable feed speed, vacuum plant for processing small parts, and built-in roller table extensions.",
+    "youtube": [],
+    "images": [
+      "costa-B-series.jpg",
+      "costa-B-series01.jpg",
+      "costa-B-series02.jpg"
+    ]
+  }
+]
