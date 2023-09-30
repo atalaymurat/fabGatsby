@@ -10,7 +10,7 @@ const Machines = ({ data }) => {
   const { imagesAll, machines } = data
   return (
     <Layout>
-      <Seo title="Makinaler" />
+      <Seo title="Makineler" />
       {machines.edges.map((m, i) => {
         let images = []
 

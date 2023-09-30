@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
@@ -9,8 +8,8 @@ const mid3 = [
     img: "borgonovo-logo",
   },
   {
-    title: "Delik Makineleri",
-    img: "stema04",
+    title: "Kapı İşlem Merkezleri",
+    img: "esse-pigi-logo",
   },
   {
     title: "Ambalaj Makineleri",

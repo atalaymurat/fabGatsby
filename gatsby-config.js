@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Fabromak Makine İthalat İhracat Sanayi ve Ticaret`,
     description: `Ahşap İşleme Makinaları Satış, Servis, Yedek Parça, Giardina Group, Costa Levigatrici Türkiye Distribütörü`,
-    author: `@fabromak`,
+    author: `info@fabromak.com.tr`,
+    image: "https://fabromak.com.tr/static/fa29e1efc1b8bb997f74aa973a303817/47fa1/giardinalogo.webp",
     siteUrl: `https://fabromak.com.tr`,
   },
   plugins: [

@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    machines: allMachine(limit: 10, sort: { fields: title, order: ASC }) {
+    machines: allMachine(limit: 10, sort: { title: ASC }) {
       edges {
         node {
           brand

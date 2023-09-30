@@ -1,9 +1,9 @@
 {
-  "name": "fabromak-web-site",
+  "name": "fabromak",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "web site",
   "version": "0.1.0",
-  "author": "Fabromak <fabromak@fabromak.com.tr>",
+  "author": "Fabro",
   "dependencies": {
     "gatsby": "^5.2.0",
     "gatsby-image": "^3.11.0",

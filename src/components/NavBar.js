@@ -31,7 +31,7 @@ const NavBar = () => {
       } min-h-[60px] flex select-none`}
     >
       <div className="max-w-7xl px-4 w-full h-auto mx-auto flex items-center">
-        <h1 className="m-0 text-4xl font-bold tracking-tighter text-red-600">
+        <h1 className="m-0 text-5xl font-bold tracking-tighter text-red-600">
           <LinkS
             activeClass="active"
             onSetActive={a => setActive(a)}
