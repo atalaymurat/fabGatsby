@@ -1,6 +1,7 @@
+
 import * as React from "react"
 
-const arrow = props => (
+const ArrowIcon = props => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className={props.className}
@@ -10,4 +11,4 @@ const arrow = props => (
   </svg>
 )
 
-export default arrow
+export default ArrowIcon

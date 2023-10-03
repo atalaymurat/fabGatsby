@@ -30,8 +30,8 @@ const Page03 = ({ data }) => {
           grabCursor={true}
           breakpoints={{
             1280: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
+              slidesPerView: 1,
+              slidesPerGroup: 1,
             },
           }}
           loop
@@ -44,18 +44,32 @@ const Page03 = ({ data }) => {
           className="w-full"
         >
           <SwiperSlide>
-            <div className="my-4 flex flex-col justify-center bg-white text-yellow-500 px-6 pb-6 rounded-xl">
+            <div className="my-4 flex flex-col justify-center bg-white black px-6 pb-6 rounded-xl">
               <h1 className="text-lg sm:text-4xl py-3 font-extrabold">
                 Giardina Group
               </h1>
               <MachineGrid data={data} mac="giardina group" />
             </div>
 
-            <div className="my-4 flex flex-col justify-center bg-white text-yellow-700 px-6 pb-6 rounded-xl">
+            <div className="my-4 flex flex-col justify-center bg-white text-blue-900 px-6 pb-6 rounded-xl">
               <h1 className="text-lg sm:text-4xl py-3 font-extrabold">
                 Costa Levigatrici
               </h1>
               <MachineGrid data={data} mac="costa levigatrici" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="my-4 flex flex-col justify-center bg-white text-red-700 px-6 pb-6 rounded-xl">
+              <h1 className="text-lg sm:text-4xl py-3 font-extrabold">
+                Omma
+              </h1>
+              <MachineGrid data={data} mac="omma" />
+            </div>
+            <div className="my-4 flex flex-col justify-center bg-white text-blue-400 px-6 pb-6 rounded-xl">
+              <h1 className="text-lg sm:text-4xl py-3 font-extrabold">
+                Renzo Borgonovo
+              </h1>
+              <MachineGrid data={data} mac="renzo borgonovo" />
             </div>
           </SwiperSlide>
         </Swiper>

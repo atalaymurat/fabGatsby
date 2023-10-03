@@ -1,6 +1,7 @@
+
 import * as React from "react"
 
-const gear = props => (
+const GearIcon = props => (
   <svg
     className={props.className}
     xmlns="http://www.w3.org/2000/svg"
@@ -14,4 +15,4 @@ const gear = props => (
   </svg>
 )
 
-export default gear
+export default GearIcon

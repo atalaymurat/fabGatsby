@@ -3,34 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-  @variants responsive {
-    .academy {
-      aspect-ratio: 4/3;
-    }
-    .square {
-      aspect-ratio: 1/1;
-    }
-    .wide {
-      aspect-ratio: 16/9;
-    }
-    .ultra-wide {
-      aspect-ratio: 64/27;
-    }
-    .insta {
-      aspect-ratio: 3/4;
-    }
-    .snap {
-      scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
-    }
-    .snap-y {
-      --scroll-snap-direction: y;
-    }
-    .snap-mandatory {
-      --scroll-snap-constraint: mandatory;
-    }
-    .snap-start {
-      scroll-snap-align: start;
-    }
+ .content-auto {
+     content-visibility: auto; 
   }
 }
 

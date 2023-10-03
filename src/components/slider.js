@@ -10,7 +10,7 @@ import "swiper/css/pagination"
 import "swiper/css/scrollbar"
 import "swiper/css/autoplay"
 
-const Slider = ({ imagesAll }) => {
+const Slider = ({ images }) => {
   return (
     <div className="w-auto h-32">
       <Swiper
@@ -26,11 +26,12 @@ const Slider = ({ imagesAll }) => {
         onSwiper={swiper => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {imagesAll.map(i => (
+        {images.map(i => (
           <SwiperSlide>
               <GatsbyImage
                 image={i.node.gatsbyImageData}
                 className="object-cover w-full mx-auto wide"
+                alt="..."
               />
           </SwiperSlide>
         ))}

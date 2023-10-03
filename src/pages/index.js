@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    machines: allMachine(limit: 10, sort: { title: ASC }) {
+    machines: allMachine(limit: 100, sort: { title: ASC }) {
       edges {
         node {
           brand
@@ -42,9 +42,9 @@ export const query = graphql`
     imagesAll: allImageSharp {
       edges {
         node {
+          gatsbyImageData( height: 200, layout: CONSTRAINED, placeholder: BLURRED, breakpoints: [640, 768, 1024, 1280, 1536])
           fluid(maxWidth: 1020) {
             originalName
-            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -54,7 +54,7 @@ export const query = graphql`
         node {
           relativeDirectory
           childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
+            gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED, breakpoints: [640, 768, 1024, 1280, 1536])
           }
         }
       }
@@ -65,11 +65,10 @@ export const query = graphql`
         name
         childImageSharp {
           gatsbyImageData(
-            placeholder: BLURRED
-            layout: FULL_WIDTH
-            backgroundColor: "#FFFFFF"
+            backgroundColor: "#FFFFFF", height: 1020, layout: CONSTRAINED, breakpoints: [640, 768, 1024, 1280, 1536]
           )
         }
+        publicURL
       }
     }
   }

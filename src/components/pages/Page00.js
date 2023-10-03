@@ -13,7 +13,7 @@ const Page00 = ({ data }) => {
     <section className="flex flex-col w-full h-screen" id="home">
       {/* SLIDER CARUSEL */}
       <div className="relative h-full mt-[60px]">
-        <SliderIndex imagesAll={data.sliderImg} />
+        <SliderIndex images={data.sliderImg} />
       </div>
       {show ? (
         <div className="absolute z-40 bottom-10 right-20 font-extrabold">

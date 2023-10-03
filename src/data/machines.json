@@ -125,6 +125,26 @@
     ]
   },
   {
+    "title": "sk series",
+    "brand": "costa levigatrici",
+    "sector": [
+      "ahsap",
+      "metal"
+    ],
+    "category": [
+      "zımpara"
+    ],
+    "description": "The SK Series calibrating-sanding machine is our all-in-one solution for the small industrial user.The SK-Series machine comes in several different configurations with drums and pads. Available in working widths of 45\" and 52\", variable feed speed, vacuum plant for processing small parts, and built-in roller table extensions.",
+    "youtube": [],
+    "images": [
+      "costa-sk-series.jpg",
+      "costa-SK-series01.jpg",
+      "costa-SK-series02.jpg",
+      "costa-SK-series03.jpg",
+      "costa-SK-series04.jpg"
+    ]
+  },
+  {
     "title": "k series",
     "brand": "costa levigatrici",
     "sector": [
@@ -144,26 +164,6 @@
     ]
   },
   {
-    "title": "sk series",
-    "brand": "costa levigatrici",
-    "sector": [
-      "ahsap",
-      "metal"
-    ],
-    "category": [
-      "zımpara"
-    ],
-    "description": "The SK Series calibrating-sanding machine is our all-in-one solution for the small industrial user.The SK-Series machine comes in several different configurations with drums and pads. Available in working widths of 45\" and 52\", variable feed speed, vacuum plant for processing small parts, and built-in roller table extensions.",
-    "youtube": [],
-    "images": [
-      "costa-SK-series.jpg",
-      "costa-SK-series01.jpg",
-      "costa-SK-series02.jpg",
-      "costa-SK-series03.jpg",
-      "costa-SK-series04.jpg"
-    ]
-  },
-  {
     "title": "b series",
     "brand": "costa levigatrici",
     "sector": [
@@ -179,6 +179,126 @@
       "costa-B-series.jpg",
       "costa-B-series01.jpg",
       "costa-B-series02.jpg"
+    ]
+  },
+  {
+    "title": "fsc",
+    "brand": "omma",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "omma-fsc.jpg"
+    ]
+  },
+  {
+    "title": "gs",
+    "brand": "omma",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "omma-gs.jpg"
+    ]
+  },
+  {
+    "title": "pro-jet",
+    "brand": "omma",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "omma-pro-jet.jpg"
+    ]
+  },
+  {
+    "title": "acu-pur",
+    "brand": "omma",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "omma-asu-pur.jpg"
+    ]
+  },
+  {
+    "title": "1300 iti p",
+    "brand": "renzo borgonovo",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "borgonovo-1300-iti-p.jpg"
+    ]
+  },
+  {
+    "title": "4t98",
+    "brand": "renzo borgonovo",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "borgonovo-4t98.jpg"
+    ]
+  },
+  {
+    "title": "bl94",
+    "brand": "renzo borgonovo",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "borgonovo-bl94.jpg"
+    ]
+  },
+  {
+    "title": "lcb 600",
+    "brand": "renzo borgonovo",
+    "sector": [
+      "ahsap"
+    ],
+    "category": [
+      "panel"
+    ],
+    "description": "",
+    "youtube": [],
+    "images": [
+      "borgonovo-lcb-600.jpg"
     ]
   }
 ]

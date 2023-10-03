@@ -3,8 +3,8 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Img from "gatsby-image"
 import MachineGrid from "../components/MachineGrid"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const Machines = ({ data }) => {
   const { imagesAll, machines } = data
@@ -15,22 +15,28 @@ const Machines = ({ data }) => {
         let images = []
 
         m.node.images.forEach(i => {
-          let found = imagesAll.edges.find(img => img.node.fluid.originalName === i)
+          let found = imagesAll.edges.find(
+            img => img.node.fluid.originalName === i
+          )
           images = [...images, found]
         })
 
         return (
           <div>
-            <h1>{m.node.title}</h1>
+            <h1>{m.node.title} ***</h1>
             {images.map(i => (
               <div className="inline-flex border-2 border-gray-300 ">
-                <Img fluid={i.node.fluid} className="w-24 h-24"></Img>
+                <GatsbyImage
+                  image={getImage(i.node)}
+                  alt={i.node.fluid.originalName} // You can set an appropriate alt text here
+                  className="w-24 h-24"
+                />
               </div>
             ))}
           </div>
         )
       })}
-      <MachineGrid data={data}/>
+      <MachineGrid data={data} />
     </Layout>
   )
 }
@@ -56,9 +62,9 @@ export const pagequery = graphql`
     imagesAll: allImageSharp {
       edges {
         node {
+          gatsbyImageData
           fluid(maxWidth: 1020) {
             originalName
-            ...GatsbyImageSharpFluid
           }
         }
       }

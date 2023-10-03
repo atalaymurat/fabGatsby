@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
-import { Link as LinkS, animateScroll as scroll } from "react-scroll"
+import { Link as LinkS } from "react-scroll"
 
 const NavBar = () => {
   const [scrolling, setScrolling] = useState(false)

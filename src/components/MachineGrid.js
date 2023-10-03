@@ -1,27 +1,29 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const MachineGrid = ({ data, mac }) => {
   const { imagesAll, machines } = data
   return (
     <div className="mx-auto w-full h-full grid grid-cols-4 gap-4">
       {machines.edges
-        .filter( f => f.node.brand === mac )
+        .filter(f => f.node.brand === mac)
         .filter((f, i) => i < 4)
         .map((m, i) => {
           let images = []
 
-          m.node.images.forEach(i => {
+          m.node.images.forEach(imgName => {
             let found = imagesAll.edges.find(
-              img => img.node.fluid.originalName === i
+              (edge) => edge.node.fluid.originalName === imgName
             )
             images = [...images, found]
           })
 
+          const image = getImage(images[0].node)
+
           return (
-            <div className="w-full h-full flex flex-col text-yellow-600">
+            <div className="w-full h-full flex flex-col text-yellow-600" key={i}>
               <div className="relative overflow-hidden hover:cursor-pointer h-full w-full">
                 <Link
                   to={`/${m.node.brand.replace(
@@ -29,11 +31,14 @@ const MachineGrid = ({ data, mac }) => {
                     "-"
                   )}/${m.node.title.replace(/ +/g, "-")}`}
                 >
-                  <div className="flex">
-                    <Img
-                      fluid={images[0].node.fluid}
-                      className="absolute inset-0 object-cover w-full h-full square"
-                    ></Img>
+                  <div className="h-full w-full flex items-center">
+
+                    <GatsbyImage
+                      image={image}
+                      alt={m.node.title}
+                      className="w-full h-full aspect-square"
+                      style={{ maxWidth: "100%" }}
+                    />
                   </div>
                 </Link>
               </div>

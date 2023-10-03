@@ -75,14 +75,6 @@ function Seo({ description, lang, meta, title, color }) {
           content: metaDescription,
         },
         {
-          name: `googlebot`,
-          content: "noindex",
-        },
-        {
-          name: `robots`,
-          content: "noindex, nofollow",
-        },
-        {
           name: `theme-color`,
           content: color || "#000000"
         }

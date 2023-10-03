@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
@@ -20,7 +19,7 @@ const MainBrandsBlock = ({ images }) => {
   const findImg = name => getImage(images.nodes.find(img => img.name === name))
 
   return (
-    <div className="w-full max-h-full mx-auto grid grid-cols-2 grid-rows-2 gap-4 square md:wide">
+    <div className="w-full max-h-full mx-auto grid grid-cols-2 grid-rows-2 gap-4 md:wide">
       <div className="relative px-2 mx-auto flex flex-col justify-center items-center col-span-2 w-full overflow-hidden text-center">
         <div className="block mx-auto text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text">
           <h2 className="order-first text-sm sm:text-xl font-medium tracking-wide">
@@ -48,10 +47,11 @@ const MainBrandsBlock = ({ images }) => {
           className="flex justify-center rounded-lg shadow-sm w-full h-full overflow-hidden col-span-1"
           key={i}
         >
-          <div className="relative h-full w-full square" key={i}>
+          <div className="relative h-full w-full" key={i}>
             <GatsbyImage
-              className="absolute inset-0 object-cover w-full h-full"
+              className="absolute inset-0 object-cover w-full h-full bg-white"
               image={findImg(d.img)}
+              alt={d.title}
             />
           </div>
         </div>
